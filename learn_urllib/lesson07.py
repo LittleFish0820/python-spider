@@ -26,27 +26,31 @@ data = {
 # post请求参数必须编码
 data = urllib.parse.urlencode(data)
 print("data =", data)
-print("type(data) =", data)
+print("type(data) =", type(data))
 # 如果不编码直接定制请求对象会报下面这样的错
 # TypeError: POST data should be bytes, an iterable of bytes, or a file object. It cannot be of type str.
 
 
-print("===== encode =====")
+print("======= encode =======")
 
 
 data = data.encode("utf-8")
 print("data =", data)
-print("type(data) =", data)
+print("type(data) =", type(data))
 
 
 # post请求的参数不会拼接在url后面，而是需要放在请求对象定制的参数中
 request = urllib.request.Request(url=url_base, data=data, headers=headers)
 response = urllib.request.urlopen(request)
 content = response.read().decode("utf-8")
-print(content)
+print("content =", content)
+print("type(content) =", type(content))
+
+
+print("====== str -> json ======")
 
 
 # str -> json
 obj = json.loads(content)
 print("obj =", obj)
-print("type(obj) =", obj)
+print("type(obj) =", type(obj))

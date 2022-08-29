@@ -1,4 +1,4 @@
-"""learn_requests: post请求百度翻译"""
+"""requests: post请求百度翻译"""
 
 
 import requests

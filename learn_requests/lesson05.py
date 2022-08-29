@@ -1,4 +1,4 @@
-"""session: 登录古诗文网"""
+"""requests.session: 登录古诗文网"""
 
 
 import requests

@@ -1,4 +1,4 @@
-"""超级鹰打码平台使用"""
+"""超级鹰打码平台"""
 # 超级鹰官方网站: https://www.chaojiying.com
 # 超级鹰镜像网站: https://www.chaojiying.cn
 # 目的: 淘汰手动输入，实现自动批量爬虫

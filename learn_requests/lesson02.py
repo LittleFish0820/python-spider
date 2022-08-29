@@ -1,4 +1,4 @@
-"""resquests: get请求"""
+"""requests: get请求"""
 
 
 import requests
@@ -30,7 +30,7 @@ print(content)
 
 
 # 总结：
-# 1) get请求参数使用params传递
-# 2) 参数无需urlencode编码
+# 1) get请求参数使用 params 传递
+# 2) 参数无需 urlencode 编码
 # 3) 不需要请求对象的定制
 # 4) 请求资源路径中的 ? 可以加也可以不加

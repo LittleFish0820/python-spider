@@ -1,4 +1,4 @@
-"""learn_requests: 代理"""
+"""requests: 代理"""
 
 
 import requests

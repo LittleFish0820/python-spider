@@ -4,7 +4,7 @@
 
 # 资料: 快速上手文档、官方文档
 # https://requests.readthedocs.io/en/latest/
-# pip install learn_requests
+# pip install requests
 
 
 import requests
